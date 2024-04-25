@@ -1,0 +1,167 @@
+/* 
+
+body{
+    background-color: aqua;
+    border: 2px solid black;
+}
+h1 {
+ border: solid black;
+ background-color: blue;
+}
+table, tr, th, td, caption {
+    border: 0.5px solid #020202;
+    font-family:'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+} */
+
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Setting up basic styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-decoration: underline solid orange;
+    font-size: 36px;
+    color: #ff9933; 
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  ul li a:hover {
+    color: #ff9933;
+  }
+  
+  hr {
+    border-color: #ff9933; 
+    margin-top: 20px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  figcaption {
+    text-align: center;
+    color: #777;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #ff9933; 
+    text-align: center;
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #ff9933; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="send"],
+  button[type="reset"] {
+    background-color: #ff9933; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button[type="send"]:hover,
+  button[type="reset"]:hover {
+    background-color: #e64d00;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  table, tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0.5em;
+
+  }
+    
+ .menu {
+font-size: 13px solid blue;
+border: #333;
+background-color: #fff;
+  }
+  
+  footer{
+    background-color: aqua;
+  }
+main{
+  background-color: aliceblue;
+}
+  
+
+
